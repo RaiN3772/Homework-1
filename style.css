@@ -1,0 +1,44 @@
+body {
+	background: #f0f2f5;
+}
+.navbar.bg-ahliya {
+	background: #670e0a;
+}
+.navbar .navbar-brand a {
+	color: #a38b30;
+}
+.navbar-text.text-date {
+	color: #c4bbba;
+}
+.widget {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%);
+    -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 8%), 0 1px 20px 0 rgb(0 0 0 / 7%), 0px 1px 11px 0px rgb(0 0 0 / 7%);
+}
+.widget .widget-heading {
+    margin-bottom: 15px;
+}
+.widget-footer {
+	margin-top: .7rem;
+	text-align: center;
+}
+.result {
+	padding: 1rem;
+	display: block;
+	
+}
+.result.passed {
+	color: #205237;
+    background-color: #dcf5e7;
+    border: 1px solid #cbf0dc;
+}
+.result.failed {
+	color: #912741;
+    background-color: #fcd9e2;
+    border-color: #fbc6d3;
+}
